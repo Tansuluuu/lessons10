@@ -1,0 +1,72 @@
+@media (max-width: 1200px) {
+    .container { padding: 0 10px;
+    }
+
+    .first-img{
+        height: 420px;
+    }
+    .custom-box{
+        width: 100%;
+
+    }
+    .custom-box .box{
+       width: 100%;
+    }
+
+    .car-info{
+        height: 480px;
+        padding: 0 30px;
+    }
+    .car-desc-wrapper h4{
+        font-size: 20px;
+    }
+    .box h4{
+       font-size: 14px; 
+    }
+    .inner-box{
+        width: unset;
+    }
+    
+    .header{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 900px){
+    .col-4{
+        width: 100%;
+    }
+    .col-12-sm{
+        width: 100%;
+    }
+    .col-6{
+        width: 50%;
+        padding: 0 15px;
+    }
+    div.row.img-wrapper{
+        flex-direction: row;
+        gap: 0;
+    }
+    nav,.search-btn{
+        display: none;
+    }
+    .mobile-btn{
+        display: block;
+        padding:  0;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 650px) {
+    
+}
+
+@media (max-width: 370px) {
+
+}
